@@ -1,5 +1,7 @@
-1.//Prompt the user1 to enter name, user1
+1.
+
 2.//Prompt the user2 to enter name, user2
+
 3.//Define user1_wins, user2_wins,user1_choice, user2_choice, total_rounds, ties
 4.// define list result
 5.// define list user1_choices

@@ -9,18 +9,18 @@ namespace rockPaperScissors
         {   
             //Prompt the user1 to enter name, user1
             Console.WriteLine("Player One, Enter your name!");
-            var user1=Console.ReadLine();
+            string user1=Console.ReadLine();
 
             //Prompt the user2 to enter name, user2
             Console.WriteLine("Player Two, Enter your name!");
-            var user2=Console.ReadLine();
+            string user2=Console.ReadLine();
 
             //Define user1_wins, user2_wins,user1_choice, user2_choice, total_rounds, ties
             int user1_wins=0;
             int user2_wins=0;
             string user1_choice;
             string user2_choice;
-            int total_rounds=0;
+            
             int ties=0;
             // define list result
             List <string> result= new List<string>();
@@ -29,7 +29,7 @@ namespace rockPaperScissors
             // define list user2_choices
             List <string> user2_choices= new List <string> ();
             //define RPS list
-            string rps= new string ["Rock", "Paper", "Scissors"];
+            string [] rps=  {"Rock", "Paper", "Scissors"};
             //create random number generator 
             Random rnd = new Random();
             //create while loop to simulate games
@@ -89,22 +89,26 @@ namespace rockPaperScissors
 
 
             }
+            // for loop to print ou the results
             for(int i=0 ;i<result.Count; i++ ){
+                //print the result for each round
                 if(user1_choices[i]!=user2_choices[i]){
-                Console.WriteLine("Round "+(i+1)+" - "+user1+" chooses "+user1_choice+" and "+user2+" chooses "+user2_choice+"- "+result[i]+" wins");
+                Console.WriteLine("Round "+(i+1)+" - "+user1+" chooses "+user1_choices[i]+" and "+user2+" chooses "+user2_choices[i]+"- "+result[i]+" wins");
                 }
                 else{
-                    Console.WriteLine("Round "+(i+1)+" - "+user1+" chooses "+user1_choice+" and "+user2+" chooses "+user2_choice+"- The result is a Tie");
+                    Console.WriteLine("Round "+(i+1)+" - "+user1+" chooses "+user1_choices[i]+" and "+user2+" chooses "+user2_choices[i]+"- The result is a Tie");
 
 
                 }
 
             }
+            //print if user1 wins
             if(user1_wins== 2){
-                Console.WriteLine(user1 +"wins 2-"+user2_wins +" with "+ ties+ " ties.");
+                Console.WriteLine(user1 +" wins 2-"+user2_wins +" with "+ ties+ " ties.");
             }
+            // print if user2 wins
             else{
-                Console.WriteLine(user2 +"wins 2-"+user1_wins +" with " +ties+ " ties.");
+                Console.WriteLine(user2 +" wins 2-"+user1_wins +" with " +ties+ " ties.");
             }
 
 
