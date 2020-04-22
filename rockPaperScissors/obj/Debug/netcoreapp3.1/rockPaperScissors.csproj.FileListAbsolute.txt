@@ -1,0 +1,13 @@
+C:\Users\15163\Desktop\my_rev_repo\rhoadsMacguire-repo0\rockPaperScissors\bin\Debug\netcoreapp3.1\rockPaperScissors.exe
+C:\Users\15163\Desktop\my_rev_repo\rhoadsMacguire-repo0\rockPaperScissors\bin\Debug\netcoreapp3.1\rockPaperScissors.deps.json
+C:\Users\15163\Desktop\my_rev_repo\rhoadsMacguire-repo0\rockPaperScissors\bin\Debug\netcoreapp3.1\rockPaperScissors.runtimeconfig.json
+C:\Users\15163\Desktop\my_rev_repo\rhoadsMacguire-repo0\rockPaperScissors\bin\Debug\netcoreapp3.1\rockPaperScissors.runtimeconfig.dev.json
+C:\Users\15163\Desktop\my_rev_repo\rhoadsMacguire-repo0\rockPaperScissors\bin\Debug\netcoreapp3.1\rockPaperScissors.dll
+C:\Users\15163\Desktop\my_rev_repo\rhoadsMacguire-repo0\rockPaperScissors\bin\Debug\netcoreapp3.1\rockPaperScissors.pdb
+C:\Users\15163\Desktop\my_rev_repo\rhoadsMacguire-repo0\rockPaperScissors\obj\Debug\netcoreapp3.1\rockPaperScissors.csprojAssemblyReference.cache
+C:\Users\15163\Desktop\my_rev_repo\rhoadsMacguire-repo0\rockPaperScissors\obj\Debug\netcoreapp3.1\rockPaperScissors.csproj.CoreCompileInputs.cache
+C:\Users\15163\Desktop\my_rev_repo\rhoadsMacguire-repo0\rockPaperScissors\obj\Debug\netcoreapp3.1\rockPaperScissors.AssemblyInfoInputs.cache
+C:\Users\15163\Desktop\my_rev_repo\rhoadsMacguire-repo0\rockPaperScissors\obj\Debug\netcoreapp3.1\rockPaperScissors.AssemblyInfo.cs
+C:\Users\15163\Desktop\my_rev_repo\rhoadsMacguire-repo0\rockPaperScissors\obj\Debug\netcoreapp3.1\rockPaperScissors.dll
+C:\Users\15163\Desktop\my_rev_repo\rhoadsMacguire-repo0\rockPaperScissors\obj\Debug\netcoreapp3.1\rockPaperScissors.pdb
+C:\Users\15163\Desktop\my_rev_repo\rhoadsMacguire-repo0\rockPaperScissors\obj\Debug\netcoreapp3.1\rockPaperScissors.genruntimeconfig.cache
