@@ -111,6 +111,11 @@ namespace rockPaperScissors
                 Console.WriteLine(user2 +" wins 2-"+user1_wins +" with " +ties+ " ties.");
             }
 
+            Player p10 = new Player();
+            p10.Name = user1;
+
+            Console.WriteLine($"My name is {p10.Name}.");
+
 
 
 
