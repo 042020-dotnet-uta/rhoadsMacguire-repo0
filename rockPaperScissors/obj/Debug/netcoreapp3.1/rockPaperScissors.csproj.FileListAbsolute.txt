@@ -11,3 +11,15 @@ C:\Users\15163\Desktop\my_rev_repo\rhoadsMacguire-repo0\rockPaperScissors\obj\De
 C:\Users\15163\Desktop\my_rev_repo\rhoadsMacguire-repo0\rockPaperScissors\obj\Debug\netcoreapp3.1\rockPaperScissors.dll
 C:\Users\15163\Desktop\my_rev_repo\rhoadsMacguire-repo0\rockPaperScissors\obj\Debug\netcoreapp3.1\rockPaperScissors.pdb
 C:\Users\15163\Desktop\my_rev_repo\rhoadsMacguire-repo0\rockPaperScissors\obj\Debug\netcoreapp3.1\rockPaperScissors.genruntimeconfig.cache
+C:\Users\15163\Desktop\my_rev_repo\rhoadsMacguire-repo0\rockPaperScissors\bin\Debug\netcoreapp3.1\Serilog.dll
+C:\Users\15163\Desktop\my_rev_repo\rhoadsMacguire-repo0\rockPaperScissors\bin\Debug\netcoreapp3.1\Serilog.Sinks.File.dll
+C:\Users\15163\Desktop\my_rev_repo\rhoadsMacguire-repo0\rockPaperScissors\obj\Debug\netcoreapp3.1\rockPaperScissors.csproj.CopyComplete
+C:\Users\15163\Desktop\my_rev_repo\rhoadsMacguire-repo0\rockPaperScissors\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\15163\Desktop\my_rev_repo\rhoadsMacguire-repo0\rockPaperScissors\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\15163\Desktop\my_rev_repo\rhoadsMacguire-repo0\rockPaperScissors\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\15163\Desktop\my_rev_repo\rhoadsMacguire-repo0\rockPaperScissors\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\15163\Desktop\my_rev_repo\rhoadsMacguire-repo0\rockPaperScissors\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\15163\Desktop\my_rev_repo\rhoadsMacguire-repo0\rockPaperScissors\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\15163\Desktop\my_rev_repo\rhoadsMacguire-repo0\rockPaperScissors\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\15163\Desktop\my_rev_repo\rhoadsMacguire-repo0\rockPaperScissors\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\15163\Desktop\my_rev_repo\rhoadsMacguire-repo0\rockPaperScissors\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll

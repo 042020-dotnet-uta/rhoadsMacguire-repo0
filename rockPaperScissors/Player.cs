@@ -5,13 +5,13 @@ namespace rockPaperScissors
 {
 	class Player
 	{
-        private string _Name;
+        public string name;
 
-        public string Name
-        {
-            get { return _Name; }
-            set { _Name = value; }
-        }
+		public string choice;
+
+		public int wins=0;
+
+		public List <string> choices= new List <string> ();
         
 		
 		}

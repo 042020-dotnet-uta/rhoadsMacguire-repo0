@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\15163\\Desktop\\Visual Studio 2019\\Code Snippets\\Visual C#\\My Code Snippets\\hllo\\hllo.csproj",
-      "projectName": "hllo",
-      "projectPath": "C:\\Users\\15163\\Desktop\\Visual Studio 2019\\Code Snippets\\Visual C#\\My Code Snippets\\hllo\\hllo.csproj",
+      "projectUniqueName": "C:\\Users\\15163\\hello\\hello.csproj",
+      "projectName": "hello",
+      "projectPath": "C:\\Users\\15163\\hello\\hello.csproj",
       "packagesPath": "C:\\Users\\15163\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\15163\\Desktop\\Visual Studio 2019\\Code Snippets\\Visual C#\\My Code Snippets\\hllo\\obj\\",
+      "outputPath": "C:\\Users\\15163\\hello\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\15163\\AppData\\Roaming\\NuGet\\NuGet.Config",
