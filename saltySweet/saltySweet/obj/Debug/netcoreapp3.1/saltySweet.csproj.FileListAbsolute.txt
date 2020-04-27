@@ -1,0 +1,13 @@
+C:\Users\15163\source\repos\saltySweet\saltySweet\obj\Debug\netcoreapp3.1\saltySweet.csprojAssemblyReference.cache
+C:\Users\15163\source\repos\saltySweet\saltySweet\obj\Debug\netcoreapp3.1\saltySweet.csproj.CoreCompileInputs.cache
+C:\Users\15163\source\repos\saltySweet\saltySweet\obj\Debug\netcoreapp3.1\saltySweet.AssemblyInfoInputs.cache
+C:\Users\15163\source\repos\saltySweet\saltySweet\obj\Debug\netcoreapp3.1\saltySweet.AssemblyInfo.cs
+C:\Users\15163\source\repos\saltySweet\saltySweet\bin\Debug\netcoreapp3.1\saltySweet.exe
+C:\Users\15163\source\repos\saltySweet\saltySweet\bin\Debug\netcoreapp3.1\saltySweet.deps.json
+C:\Users\15163\source\repos\saltySweet\saltySweet\bin\Debug\netcoreapp3.1\saltySweet.runtimeconfig.json
+C:\Users\15163\source\repos\saltySweet\saltySweet\bin\Debug\netcoreapp3.1\saltySweet.runtimeconfig.dev.json
+C:\Users\15163\source\repos\saltySweet\saltySweet\bin\Debug\netcoreapp3.1\saltySweet.dll
+C:\Users\15163\source\repos\saltySweet\saltySweet\bin\Debug\netcoreapp3.1\saltySweet.pdb
+C:\Users\15163\source\repos\saltySweet\saltySweet\obj\Debug\netcoreapp3.1\saltySweet.dll
+C:\Users\15163\source\repos\saltySweet\saltySweet\obj\Debug\netcoreapp3.1\saltySweet.pdb
+C:\Users\15163\source\repos\saltySweet\saltySweet\obj\Debug\netcoreapp3.1\saltySweet.genruntimeconfig.cache
