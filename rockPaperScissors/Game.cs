@@ -1,12 +1,22 @@
 ﻿using System;
 using System.Collections.Generic;
+using  Microsoft.Extensions.Logging;
+using Microsoft.Extensions.DependencyInjection;
 namespace rockPaperScissors
+
     
 {
 
 
     class Game
     {
+        //add logging, used ryan shereda's code for help
+        private readonly ILogger _logger;
+		public Game(ILogger<Game> logger)
+		{
+			_logger = logger;
+		}
+
         public Player p1 = new Player();
         public Player p2 = new Player();
         public int ties = 0;
@@ -17,11 +27,12 @@ namespace rockPaperScissors
            // Player p1 = new Player();
             //Player p2 = new Player();
 
-            //Log.Logger = new LoggerConfiguration()
-            //.WriteTo.File("consoleapp.log")
-            //.CreateLogger();
+            Log = new LoggerConfiguration()
+            .WriteTo.File("consoleapp.log")
+            .CreateLogger();
 
-            //Log.Information("Hello, world!");
+
+            Log.Information("Hello, world! Let the Game begin!");
             //Prompt the user1 to enter name, user1
             Console.WriteLine("Player One, Enter your name!");
             p1.name = Console.ReadLine();

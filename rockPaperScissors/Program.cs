@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using  Microsoft.Extensions.Logging;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace rockPaperScissors
 {
@@ -7,7 +9,15 @@ namespace rockPaperScissors
     {
         static void Main(string[] args)
         { 
-            Game newGame= new Game();
+             //initialize logger
+            var serviceCo = new ServiceCollection();
+           // ConfigureServices(serviceCo);
+
+            //prepare logger for game, to be disposed of on game end
+            using (ServiceProvider serviceProvider = serviceCo.BuildServiceProvider())
+            {
+                //initialize game with logger
+            Game newGame= serviceProvider.GetService<Game>();
             newGame.runGame();
 
 
@@ -18,5 +28,12 @@ namespace rockPaperScissors
 
 
         }
+                //Method taken from Mark's RPS Project example
+         static void ConfigureServices(ServiceCollection serviceCo)
+        {
+            serviceCo.AddLogging(configure => configure.AddConsole())
+            .AddTransient<Gameplay>();
     }
 }
+    }
+    }
