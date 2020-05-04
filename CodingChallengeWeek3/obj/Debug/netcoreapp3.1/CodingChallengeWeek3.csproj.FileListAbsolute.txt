@@ -1,0 +1,13 @@
+C:\Users\15163\source\repos\CodingChallenge2\CodingChallenge2\bin\Debug\netcoreapp3.1\CodingChallengeWeek3.exe
+C:\Users\15163\source\repos\CodingChallenge2\CodingChallenge2\bin\Debug\netcoreapp3.1\CodingChallengeWeek3.deps.json
+C:\Users\15163\source\repos\CodingChallenge2\CodingChallenge2\bin\Debug\netcoreapp3.1\CodingChallengeWeek3.runtimeconfig.json
+C:\Users\15163\source\repos\CodingChallenge2\CodingChallenge2\bin\Debug\netcoreapp3.1\CodingChallengeWeek3.runtimeconfig.dev.json
+C:\Users\15163\source\repos\CodingChallenge2\CodingChallenge2\bin\Debug\netcoreapp3.1\CodingChallengeWeek3.dll
+C:\Users\15163\source\repos\CodingChallenge2\CodingChallenge2\bin\Debug\netcoreapp3.1\CodingChallengeWeek3.pdb
+C:\Users\15163\source\repos\CodingChallenge2\CodingChallenge2\obj\Debug\netcoreapp3.1\CodingChallengeWeek3.csprojAssemblyReference.cache
+C:\Users\15163\source\repos\CodingChallenge2\CodingChallenge2\obj\Debug\netcoreapp3.1\CodingChallengeWeek3.csproj.CoreCompileInputs.cache
+C:\Users\15163\source\repos\CodingChallenge2\CodingChallenge2\obj\Debug\netcoreapp3.1\CodingChallengeWeek3.AssemblyInfoInputs.cache
+C:\Users\15163\source\repos\CodingChallenge2\CodingChallenge2\obj\Debug\netcoreapp3.1\CodingChallengeWeek3.AssemblyInfo.cs
+C:\Users\15163\source\repos\CodingChallenge2\CodingChallenge2\obj\Debug\netcoreapp3.1\CodingChallengeWeek3.dll
+C:\Users\15163\source\repos\CodingChallenge2\CodingChallenge2\obj\Debug\netcoreapp3.1\CodingChallengeWeek3.pdb
+C:\Users\15163\source\repos\CodingChallenge2\CodingChallenge2\obj\Debug\netcoreapp3.1\CodingChallengeWeek3.genruntimeconfig.cache
