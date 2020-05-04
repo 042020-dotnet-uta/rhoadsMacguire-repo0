@@ -23,7 +23,7 @@ namespace MyStore
                 User initialUser;
                 while (true)
                 {
-                    initialUser = op.nextUser();
+                    initialUser = op.createNewUser();
                     if (initialUser != null)
                     {
                         Console.WriteLine($"New User# {initialUser.ID} created for {initialUser.Fname} {initialUser.Lname} ");

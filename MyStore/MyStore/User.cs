@@ -83,7 +83,7 @@ namespace MyStore
 
         public void PrintUserInfo()
         {
-            string[] titles = { "First name", "Last Name", "Address Line 1", "Address Line 2", "City", "State", "Zip Code", "Phone" };
+            string[] titles = { "First name", "Last Name", "Address", "City", "State", "Zip Code", "Cell" };
             string[] data = { Fname, Lname, Address, City, State, Zipcode, Cell };
             Console.WriteLine("---------------------------");
             for (int i = 0; i < titles.Length-1; i++)
