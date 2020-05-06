@@ -9,8 +9,8 @@ using MyStore;
 namespace MyStore.Migrations
 {
     [DbContext(typeof(DbStoreContext))]
-    [Migration("20200503201237_ChangeUser")]
-    partial class ChangeUser
+    [Migration("20200506064222_initialStore")]
+    partial class initialStore
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -18,107 +18,9 @@ namespace MyStore.Migrations
             modelBuilder
                 .HasAnnotation("ProductVersion", "5.0.0-preview.3.20181.2");
 
-            modelBuilder.Entity("MyStore.Inventory", b =>
+            modelBuilder.Entity("MyStore.Cust", b =>
                 {
-                    b.Property<int>("ID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
-
-                    b.Property<int?>("LocationID")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<int?>("ProductID")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<int>("Quantity")
-                        .HasColumnType("INTEGER");
-
-                    b.HasKey("ID");
-
-                    b.HasIndex("LocationID");
-
-                    b.HasIndex("ProductID");
-
-                    b.ToTable("Inventory");
-                });
-
-            modelBuilder.Entity("MyStore.Order", b =>
-                {
-                    b.Property<int>("ID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
-
-                    b.Property<int?>("LocalStoreID")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<int>("MaxOrder")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<int?>("OrderID")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<DateTime>("OrderTime")
-                        .HasColumnType("TEXT");
-
-                    b.Property<int?>("ProductID")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<int>("Quantity")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<int?>("UserID")
-                        .HasColumnType("INTEGER");
-
-                    b.HasKey("ID");
-
-                    b.HasIndex("LocalStoreID");
-
-                    b.HasIndex("OrderID");
-
-                    b.HasIndex("ProductID");
-
-                    b.HasIndex("UserID");
-
-                    b.ToTable("Order");
-                });
-
-            modelBuilder.Entity("MyStore.Product", b =>
-                {
-                    b.Property<int>("ID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
-
-                    b.Property<string>("Name")
-                        .HasColumnType("TEXT");
-
-                    b.Property<double>("Price")
-                        .HasColumnType("REAL");
-
-                    b.Property<int>("Quantity")
-                        .HasColumnType("INTEGER");
-
-                    b.HasKey("ID");
-
-                    b.ToTable("Product");
-                });
-
-            modelBuilder.Entity("MyStore.StoreLocation", b =>
-                {
-                    b.Property<int>("ID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
-
-                    b.Property<string>("City")
-                        .HasColumnType("TEXT");
-
-                    b.HasKey("ID");
-
-                    b.ToTable("StoreLocation");
-                });
-
-            modelBuilder.Entity("MyStore.User", b =>
-                {
-                    b.Property<int>("ID")
+                    b.Property<int>("CustId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
@@ -146,16 +48,111 @@ namespace MyStore.Migrations
                     b.Property<string>("Zipcode")
                         .HasColumnType("TEXT");
 
-                    b.HasKey("ID");
+                    b.HasKey("CustId");
 
-                    b.ToTable("User");
+                    b.ToTable("Cust");
+                });
+
+            modelBuilder.Entity("MyStore.Inventory", b =>
+                {
+                    b.Property<int>("InventoryID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int?>("LocationStoreLocationID")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int?>("ProductID")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("InventoryID");
+
+                    b.HasIndex("LocationStoreLocationID");
+
+                    b.HasIndex("ProductID");
+
+                    b.ToTable("Inventory");
+                });
+
+            modelBuilder.Entity("MyStore.Order", b =>
+                {
+                    b.Property<int>("OrderID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("CustId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("MaxOrder")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int?>("OrderID1")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<DateTime>("OrderTime")
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("Productid")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("Storeid")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("OrderID");
+
+                    b.HasIndex("OrderID1");
+
+                    b.ToTable("Order");
+                });
+
+            modelBuilder.Entity("MyStore.Product", b =>
+                {
+                    b.Property<int>("ProductID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("TEXT");
+
+                    b.Property<double>("Price")
+                        .HasColumnType("REAL");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("StoreID")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("ProductID");
+
+                    b.ToTable("Product");
+                });
+
+            modelBuilder.Entity("MyStore.StoreLocation", b =>
+                {
+                    b.Property<int>("StoreLocationID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("City")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("StoreLocationID");
+
+                    b.ToTable("StoreLocation");
                 });
 
             modelBuilder.Entity("MyStore.Inventory", b =>
                 {
                     b.HasOne("MyStore.StoreLocation", "Location")
                         .WithMany()
-                        .HasForeignKey("LocationID");
+                        .HasForeignKey("LocationStoreLocationID");
 
                     b.HasOne("MyStore.Product", "Product")
                         .WithMany()
@@ -164,21 +161,9 @@ namespace MyStore.Migrations
 
             modelBuilder.Entity("MyStore.Order", b =>
                 {
-                    b.HasOne("MyStore.StoreLocation", "LocalStore")
-                        .WithMany()
-                        .HasForeignKey("LocalStoreID");
-
                     b.HasOne("MyStore.Order", null)
                         .WithMany("Cart")
-                        .HasForeignKey("OrderID");
-
-                    b.HasOne("MyStore.Product", "Product")
-                        .WithMany()
-                        .HasForeignKey("ProductID");
-
-                    b.HasOne("MyStore.User", "User")
-                        .WithMany()
-                        .HasForeignKey("UserID");
+                        .HasForeignKey("OrderID1");
                 });
 #pragma warning restore 612, 618
         }

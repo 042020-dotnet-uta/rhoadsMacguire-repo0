@@ -13,7 +13,7 @@ namespace MyStore
     public class DbStoreContext: DbContext
     {
 
-        public DbSet<User> User { get; set; }
+        public DbSet<Cust> Cust { get; set; }
         public DbSet<Order> Order { get; set; }
         public DbSet<Product> Product { get; set; }
         public DbSet<StoreLocation> StoreLocation { get; set; }
@@ -27,7 +27,7 @@ namespace MyStore
         {
             if (!options.IsConfigured)
             {
-                options.UseSqlite("Datasource=store.db");
+                options.UseSqlite("Data Source=store.db");
             }
         }
 

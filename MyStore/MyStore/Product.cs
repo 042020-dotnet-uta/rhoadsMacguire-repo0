@@ -10,15 +10,12 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace MyStore
 {
-    public class Product
+    //Product class which allows for product ordering 
+    public class Product  
     {
 
-        private int id;
-        public int ID
-        {
-            get { return id; }
-            set { id = value; }
-        }
+        public int ProductID { get; set; }
+
         private string name;
 
         public string Name
@@ -26,6 +23,14 @@ namespace MyStore
             get { return name; }
             set { name = value; }
         }
+
+        private int storeID;
+        public int StoreID
+        {
+            get { return storeID; }
+            set { storeID = value; }
+        }
+
 
         private double price;
         public double Price
@@ -40,8 +45,14 @@ namespace MyStore
             get { return quantity; }
             set { quantity = value; }
         }
+        public override string ToString()
+       
+        {
+            return ( "\nName: " + Name +"\nProduct Price: " + Price +"\nLocation ID" + StoreID );
+        }
 
-        Product() { }
+    
+       // Product() { }
 
     }
 }

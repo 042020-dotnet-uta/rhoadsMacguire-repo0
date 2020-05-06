@@ -10,15 +10,13 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace MyStore
 {
+    //This class populates StoreLocation
     public class StoreLocation
     {
-        private int id;
         
-        public int ID
-        {
-            get { return id; }
-            set { id = value; }
-        }
+        public int StoreLocationID { get; set; }
+
+        
 
         private string city;
         public string City

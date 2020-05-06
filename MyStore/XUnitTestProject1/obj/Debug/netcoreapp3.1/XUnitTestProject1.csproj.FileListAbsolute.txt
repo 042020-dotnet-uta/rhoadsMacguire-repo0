@@ -94,3 +94,4 @@ C:\Users\15163\Desktop\my_rev_repo\rhoadsMacguire-repo0\MyStore\XUnitTestProject
 C:\Users\15163\Desktop\my_rev_repo\rhoadsMacguire-repo0\MyStore\XUnitTestProject1\obj\Debug\netcoreapp3.1\XUnitTestProject1.dll
 C:\Users\15163\Desktop\my_rev_repo\rhoadsMacguire-repo0\MyStore\XUnitTestProject1\obj\Debug\netcoreapp3.1\XUnitTestProject1.pdb
 C:\Users\15163\Desktop\my_rev_repo\rhoadsMacguire-repo0\MyStore\XUnitTestProject1\obj\Debug\netcoreapp3.1\XUnitTestProject1.genruntimeconfig.cache
+C:\Users\15163\Desktop\my_rev_repo\rhoadsMacguire-repo0\MyStore\XUnitTestProject1\bin\Debug\netcoreapp3.1\testhost.exe

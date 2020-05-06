@@ -9,14 +9,12 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace MyStore
 {
-    public class User
+    //This class populates the user object
+    public class Cust
     {
-        private int id;
-        public int ID
-        {
-            get { return id; }
-            set { id = value; }
-        }
+
+        public int CustId { get; set; }
+
         private string fname;
         public string Fname
         {
@@ -79,13 +77,14 @@ namespace MyStore
 
 
 
-        public User() { }
+        public Cust() { }
 
         public void PrintUserInfo()
         {
-            string[] titles = { "First name", "Last Name", "Address", "City", "State", "Zip Code", "Cell" };
-            string[] data = { Fname, Lname, Address, City, State, Zipcode, Cell };
+            string[] titles = { "First name", "Last Name", "Address", "City", "State", "Zip Code", "Cell", "Email" };
+            string[] data = { Fname, Lname, Address, City, State, Zipcode, Cell, Email };
             Console.WriteLine("---------------------------");
+            Console.WriteLine($"UserID {CustId}");
             for (int i = 0; i < titles.Length-1; i++)
             {
                 Console.WriteLine("{0,-20} {1,-20}", titles[i], data[i]);

@@ -7,6 +7,7 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 namespace MyStore
 {
+    //This class contains the Main method and is where the code runs from
     public class Program
     {
         static void Main(string[] args)
@@ -15,27 +16,17 @@ namespace MyStore
 
             var serviceCo = new ServiceCollection();
             ConfigureServices(serviceCo);
-            
+
 
             using (ServiceProvider serviceProvider = serviceCo.BuildServiceProvider())
             {
                 OpenStore op = serviceProvider.GetService<OpenStore>();
-                User initialUser;
+                //User initialUser;
                 while (true)
                 {
-                    initialUser = op.createNewUser();
-                    if (initialUser != null)
-                    {
-                        Console.WriteLine($"New User# {initialUser.ID} created for {initialUser.Fname} {initialUser.Lname} ");
-                    }
-                    else
-                    {
-                        Console.WriteLine("Customer creating cancelled.");
-                        continue;
-                    }
+                     op.runStore();
                 }
             }
-
 
 
 
